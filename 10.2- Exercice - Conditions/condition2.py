@@ -7,3 +7,22 @@
 #                       Sinon, elle est bissextile.
 #
 # Résultat attendu : Un message affichant "Année bissextile" ou "Année non bissextile"
+
+def is_leap_year(year):
+    if (year % 4 == 0):
+        if (year % 100 == 0):
+            return (year % 400 == 0)
+        else:
+            return True
+    else:
+        return False
+
+
+def check_is_leap_year(year):
+    if (is_leap_year(year)):
+        print("Année bissextile")
+    else:
+        print("Année non bissextile")
+
+
+check_is_leap_year(2020)
