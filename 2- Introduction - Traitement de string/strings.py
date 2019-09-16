@@ -4,7 +4,7 @@ a = 1
 test = "Bonjour"
 
 print("Test d'affichage de la valeur N :", N, " ainsi que de la valeur a : ", a)
-print("test" + test)
+print("test",test, sep=" ")
 print("test" + str(N))
 
 chaine = "Ceci est un exemple"
