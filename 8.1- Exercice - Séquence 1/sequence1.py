@@ -4,3 +4,11 @@
 
 a = 11
 b = 42
+
+print("old a ", a, " and old b", b)
+
+aux = a
+a = b
+b = aux
+
+print("new a ", a, " and new b", b)
