@@ -4,3 +4,8 @@
 
 nb_articles = 13
 prix_ht = 42.75
+
+TVA = 0.077
+value = prix_ht * nb_articles * TVA
+
+print("Le prix TTC est de", value, "chf.", sep=" ")
