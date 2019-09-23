@@ -3,3 +3,8 @@
 # Résultat attendu : Le tableau B trié
 
 B = [2, 6, 8, 5, 4, 12, 98, 34, 1]
+
+B.sort()
+
+print(B)
+
